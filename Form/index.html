@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Practice</title>
+    <style>
+      form {
+        padding: 19%;
+        text-align: center;
+      }
+      
+      label{
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Form Start -->
+    <!-- <center> -->
+
+    <form>
+      <!-- Name -->
+      <label for="name" class="padding1"
+        >Name:
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="First Name"
+          autocomplete="name"
+        /> </label
+      ><br />
+      <br />
+
+      <!-- Email -->
+      <label for="emai" class="padding1"
+        >Email:
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Email Address"
+          aria-required="true"
+          autocomplete="email"
+        /> </label
+      ><br />
+      <br />
+
+      <!-- Password -->
+      <label for="password" class="padding1"
+        >Password
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="Passowrd"
+          autocomplete="current-password"
+        /> </label
+      ><br />
+      <br />
+
+      <!-- Radio -->
+      <label for="gender">
+        Gender:
+        <input type="radio" name="gender" id="gender" />Male
+        <input type="radio" name="gender" id="gender" />Female
+        <input type="radio" name="gender" id="gender" />Other
+      </label>
+      <br /><br />
+      <!-- checkbox -->
+      <label for="check">
+        <b>
+        Tick:
+    </b>
+        <input type="checkbox" name="check" id="check" />Male
+        <input type="checkbox" name="check" id="check" />Female
+        <input type="checkbox" name="check" id="check" />Other
+      </label>
+      <br /><br />
+      <!-- Options -->
+    <label for="select">Select:</label>
+      <select name="select" id="select">Select
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <br><br>
+      <!-- Submit -->
+      <input type="submit" value="password" />
+      <input type="reset" value="Clear" />
+      <!-- </center> -->
+    </form>
+    <!-- Form End -->
+  </body>
+</html>
